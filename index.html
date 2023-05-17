@@ -1,0 +1,119 @@
+---
+---
+<section class="hero is-primary">
+	<div class="hero-body">
+		<div class="container">
+			<h1 class="title is-1">
+				30 Days Leetcode
+			</h1>
+		</div>
+	</div>
+</section>
+<section>
+	<div class="columns is-multiline">
+		<!-- Consume a data.yml from this folder -->
+		{% for item in site.data.days %}
+		<div class="column is-one-third">
+			<div class="card">
+				<div class="card-content">
+					<h1 class="title is-4 ">
+						{{ item.title }}
+					</h1>
+					<h2 class="subtitle is-4">Day
+						{{ item.day }}
+					</h2>
+					<h3 class="subtitle is-5">Topics:
+						{{ item.topics }}
+					</h3>
+				</div>
+				<footer class="card-footer">
+					<span class="card-footer-item js-modal-trigger"
+							data-target="code-snippet-modal"
+							data-day="{{ item.day }}">View</span>
+				</footer>
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+</section>
+<div id="code-snippet-modal" class="modal">
+	<div class="modal-background"></div>
+
+	<div class="modal-content">
+		<div class="box">
+			<!-- Load the code snippet inside folder code -->
+			<div id="code-snippet-content"></div>
+		</div>
+	</div>
+
+	<button class="modal-close is-large" aria-label="close"></button>
+</div>
+<script>
+	document.addEventListener('DOMContentLoaded', () => {
+		// Functions to open and close a modal
+		function openModal($el) {
+			$el.classList.add('is-active');
+		}
+
+		function closeModal($el) {
+			$el.classList.remove('is-active');
+		}
+
+		function closeAllModals() {
+			(document.querySelectorAll('.modal') || []).forEach(($modal) => {
+				closeModal($modal);
+			});
+		}
+
+		// Add a click event on buttons to open a specific modal
+		(document.querySelectorAll('.js-modal-trigger') || []).forEach((
+			$trigger) => {
+			const modal = $trigger.dataset.target;
+			const $target = document.getElementById(modal);
+			const day = $trigger.dataset.day;
+
+			$trigger.addEventListener('click', () => {
+				openModal($target);
+				loadCodeSnippet(day);
+			});
+		});
+
+		// Add a click event on various child elements to close the parent modal
+		(document.querySelectorAll(
+			'.modal-background, .modal-close, .modal-card-head .delete, .modal-card-foot .button'
+		) || []).forEach(($close) => {
+			const $target = $close.closest('.modal');
+
+			$close.addEventListener('click', () => {
+				closeModal($target);
+			});
+		});
+
+		// Add a keyboard event to close all modals
+		document.addEventListener('keydown', (event) => {
+			const e = event || window.event;
+
+			if (e.keyCode === 27) { // Escape key
+				closeAllModals();
+			}
+		});
+
+		// Function to load the code snippet based on the day
+		function loadCodeSnippet(day) {
+			const snippetContainer = document.getElementById(
+				'code-snippet-content');
+			const path = `/code/${day}`;
+			const snippetFilename = path;
+			const xhttp = new XMLHttpRequest();
+
+			xhttp.onreadystatechange = function() {
+				if (this.readyState === 4 && this.status === 200) {
+					snippetContainer.innerHTML = this.responseText;
+				}
+			};
+
+			xhttp.open("GET", snippetFilename, true);
+			xhttp.send();
+		}
+	});
+</script>
