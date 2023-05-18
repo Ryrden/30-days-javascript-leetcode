@@ -14,3 +14,43 @@
   title: "Apply Transform Over Each Element in Array"
   difficulty: "Easy"
   topics: ["Basic Array Transforms"]
+# - day: 5
+#   title: "Filter Elements from Array"
+#   difficulty: "Easy"
+#   topics: ["Basic Array Transforms"]
+# - day: 6
+#   title: "Array Reduce Transformation"
+#   difficulty: "Easy"
+#   topics: ["Basic Array Transforms"]
+# - day: 7
+#   title: "Function Composition"
+#   difficulty: "Easy"
+#   topics: ["Function input and Output"]
+# - day: 8
+#   title: "Allow One Function Call"
+#   difficulty: "Easy"
+#   topics: ["Function input and Output"]
+# - day: 9
+#   title: "Memoize"
+#   difficulty: "Easy"
+#   topics: ["Function input and Output"]
+# - day: 10
+#   title: "Curry"
+#   difficulty: "Easy"
+#   topics: ["Function input and Output"]
+# - day: 11
+#   title: "Sleep"
+#   difficulty: "Easy"
+#   topics: ["Promise"]
+# - day: 12
+#   title: "Promise Time Limit"
+#   difficulty: "Easy"
+#   topics: ["Promise"]
+# - day: 13
+#   title: "Promise Pool"
+#   difficulty: "Medium"
+#   topics: ["Promise"]
+# - day: 14
+#   title: "Cache With Time Limit"
+#   topics: ["Time (setTimeout)"]
+#   difficulty: "Medium"
