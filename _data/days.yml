@@ -10,11 +10,7 @@
   title: "Counter II"
   difficulty: "Easy"
   topics: ["Closure"]
-# - day: 4
-#   title: "Apply Transform Over Each Element in Array"
-#   difficulty: "Easy"
-#   topics: ["Basic Array Transform"]
-# - day: 4
-#   title: "Apply Transform Over Each Element in Array"
-#   difficulty: "Easy"
-#   topics: ["Basic Array Transform"]
+- day: 4
+  title: "Apply Transform Over Each Element in Array"
+  difficulty: "Easy"
+  topics: ["Basic Array Transforms"]
