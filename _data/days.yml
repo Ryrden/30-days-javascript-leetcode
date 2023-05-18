@@ -6,10 +6,10 @@
   title: "Counter"
   difficulty: "Easy"
   topics: ["Closure"]
-# - day: 3
-#   title: "Counter II"
-#   difficulty: "Easy"
-#   topics: ["Closure"]
+- day: 3
+  title: "Counter II"
+  difficulty: "Easy"
+  topics: ["Closure"]
 # - day: 4
 #   title: "Apply Transform Over Each Element in Array"
 #   difficulty: "Easy"
