@@ -2,10 +2,10 @@
   title: "Create Hello World Function"
   difficulty: "Easy"
   topics: ["Closure"]
-# - day: 2
-#   title: "Counter"
-#   difficulty: "Easy"
-#   topics: ["Closure"]
+- day: 2
+  title: "Counter"
+  difficulty: "Easy"
+  topics: ["Closure"]
 # - day: 3
 #   title: "Counter II"
 #   difficulty: "Easy"
