@@ -22,10 +22,10 @@
   title: "Array Reduce Transformation"
   difficulty: "Easy"
   topics: ["Basic Array Transforms"]
-# - day: 7
-#   title: "Function Composition"
-#   difficulty: "Easy"
-#   topics: ["Function input and Output"]
+- day: 7
+  title: "Function Composition"
+  difficulty: "Easy"
+  topics: ["Function input and Output"]
 # - day: 8
 #   title: "Allow One Function Call"
 #   difficulty: "Easy"
