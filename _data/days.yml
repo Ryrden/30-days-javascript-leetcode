@@ -14,10 +14,10 @@
   title: "Apply Transform Over Each Element in Array"
   difficulty: "Easy"
   topics: ["Basic Array Transforms"]
-# - day: 5
-#   title: "Filter Elements from Array"
-#   difficulty: "Easy"
-#   topics: ["Basic Array Transforms"]
+- day: 5
+  title: "Filter Elements from Array"
+  difficulty: "Easy"
+  topics: ["Basic Array Transforms"]
 # - day: 6
 #   title: "Array Reduce Transformation"
 #   difficulty: "Easy"
