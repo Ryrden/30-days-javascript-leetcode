@@ -18,10 +18,10 @@
   title: "Filter Elements from Array"
   difficulty: "Easy"
   topics: ["Basic Array Transforms"]
-# - day: 6
-#   title: "Array Reduce Transformation"
-#   difficulty: "Easy"
-#   topics: ["Basic Array Transforms"]
+- day: 6
+  title: "Array Reduce Transformation"
+  difficulty: "Easy"
+  topics: ["Basic Array Transforms"]
 # - day: 7
 #   title: "Function Composition"
 #   difficulty: "Easy"
