@@ -34,10 +34,10 @@
   title: "Memoize"
   difficulty: "Medium"
   topics: ["Function input and Output"]
-# - day: 10
-#   title: "Curry"
-#   difficulty: "Easy"
-#   topics: ["Function input and Output"]
+- day: 10
+  title: "Curry"
+  difficulty: "Medium"
+  topics: ["Function input and Output"]
 # - day: 11
 #   title: "Sleep"
 #   difficulty: "Easy"
