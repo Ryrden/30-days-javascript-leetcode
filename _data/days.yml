@@ -30,10 +30,10 @@
   title: "Allow One Function Call"
   difficulty: "Easy"
   topics: ["Function input and Output"]
-# - day: 9
-#   title: "Memoize"
-#   difficulty: "Easy"
-#   topics: ["Function input and Output"]
+- day: 9
+  title: "Memoize"
+  difficulty: "Medium"
+  topics: ["Function input and Output"]
 # - day: 10
 #   title: "Curry"
 #   difficulty: "Easy"
