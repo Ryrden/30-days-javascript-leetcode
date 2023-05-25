@@ -38,10 +38,10 @@
   title: "Curry"
   difficulty: "Medium"
   topics: ["Function input and Output"]
-# - day: 11
-#   title: "Sleep"
-#   difficulty: "Easy"
-#   topics: ["Promise"]
+- day: 11
+  title: "Sleep"
+  difficulty: "Easy"
+  topics: ["Promise"]
 # - day: 12
 #   title: "Promise Time Limit"
 #   difficulty: "Easy"
