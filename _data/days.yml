@@ -42,10 +42,10 @@
   title: "Sleep"
   difficulty: "Easy"
   topics: ["Promise"]
-# - day: 12
-#   title: "Promise Time Limit"
-#   difficulty: "Easy"
-#   topics: ["Promise"]
+- day: 12
+  title: "Promise Time Limit"
+  difficulty: "Easy"
+  topics: ["Promise"]
 # - day: 13
 #   title: "Promise Pool"
 #   difficulty: "Medium"
